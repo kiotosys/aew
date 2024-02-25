@@ -1,0 +1,39 @@
+*{margin: 0; border: 0;}
+
+body{background-color: greenyellow;}
+
+#contenedor{width: 95%; margin: 30px auto;}
+
+header{background-color: beige;} 
+
+header h2{text-align: center; background-color: grey; margin: 10px auto;}
+
+header img{width: 100%; vertical-align: bottom;}
+
+nav{background-color: yellow;}
+
+nav a{padding: 10px; display: inline; text-decoration: none; color: red;}
+ 
+main{display: flex; background-color: orange;}
+
+aside{width: 20%; padding: 20px; color: white;}
+
+aside h3{padding: 20px 0px;}
+
+aside a{padding: 5px 0px; display: block; color: firebrick;}
+
+aside img{width: 80%; margin: auto 20px; display: inline; text-align: center;}
+
+section{width: 60%; padding: 5px; display: flex; flex-flow: row wrap; background-color: white;}
+
+section figure{width: 28%; margin: 10px auto; border: 1px solid blue; padding: 5px;}
+
+section figure img{width: 80%; margin: 10px auto; display: block;}
+
+section figure figcaption{margin: 10px; font-size: 8pt; text-align: center;}
+
+footer{padding: 10px; text-align: center; background-color: green;}
+
+footer p{margin-bottom: 10px; color: white;}
+
+footer h2{text-align: center; background-color: grey; margin: 10px auto; border: 1px solid red;}

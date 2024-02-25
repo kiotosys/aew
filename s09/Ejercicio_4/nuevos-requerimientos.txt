@@ -1,0 +1,4 @@
+Nuevos requerimientos
+- aside izquierda: borde color plomo, fondo de color verde
+- texto de los hipervinculos: dentro del aside: tamaño 13pt, letra arial, quitar el subrayado
+- las dos imagenes del libros tamaño meñor cualquiera, borde y esquina de borde a su elcción
