@@ -1,0 +1,47 @@
+*{margin: 0; border: 0;}
+
+body{background-color: aliceblue;}
+
+#contenedor{width: 80%; margin:  30px auto 30px auto;}
+
+header{background-color: beige;} 
+
+header h2{text-align: center; background-color: grey; margin: 10px auto;}
+
+header #img1{width: 100px;  height: 80px; margin-top: 0%; border-radius: 10px;}
+
+header #img2{width: 100%; vertical-align: bottom;}
+
+header div{text-align: center;}
+
+nav{background-color: cadetblue; height: 20px; padding: 10px;}
+
+nav a{padding: 10px; display: inline; text-decoration: none; color: white;}
+
+nav a:hover {background-color: coral; color: blueviolet;}
+ 
+main{display: flex; background-color: aqua;}
+
+aside{width: 40%; padding: 20px; background-color: beige;}
+
+aside h3{padding: 20px 0px;}
+
+aside a{padding: 5px 0px; display: block; color: firebrick;}
+
+aside img{width: 100%; margin: 10px; display: inline; text-align: center;}
+
+section{width: 80%; padding: 5px; display: flex; flex-flow: row wrap; background-color: white;}
+
+section div{text-align: justify;}
+
+section figure{width: 90%; margin: 10px auto; border: 1px solid blue; padding: 5px; border: 1px solid blue;}
+
+section figure img{width: 100%; margin: 10px auto; display: block;}
+
+section figure figcaption{margin: 10px; font-size: 15pt; text-align: center;}
+
+footer{text-align: center; background-color: cadetblue;}
+
+footer img{width: 50px; height: 40px; border-radius: 5px; background-color: transparent;}
+
+footer h3{text-align: center; margin: 10px auto; color: white; }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Validar Email por JQuery</title>
+       
+    </head>
+    <body>
+        <form>
+            <label for="user-email">Email: </label>
+            <input type="email" id="user-email" name="userEmail" />
+            <input type="submit" value="Validate" onclick="return validateEmail()" />
+        </form>
+        <script type="text/javascript">
+            function validateEmail(){
+                
+                // Define our regular expression.
+                var validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+
+                // Using test we can check if the text match the pattern
+                if( validEmail.test( jQuery('#user-email').val() ) ){
+                    alert('Email es válido, continue con el proceso!');
+                    return true;
+                }else{
+                    alert('Email NO es válido, compruebe el email nuevamente!');
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html> 
+    
+</body>
+</html>

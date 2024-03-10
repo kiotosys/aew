@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Número 1</label><input id="campo_01" /> <br>
+    <label>Número 1</label><input id="campo_02" /> <br>
+    <button id="btnProcesar">Procesar</button> <br>
+    <textarea id="txtSalida"></textarea>
+</body>
+
+<script>
+    function procesar(){
+        var valor_01 = parseFloat(document.getElementById("campo_01").value);
+        var valor_02 = parseFloat(document.getElementById("campo_02").value);
+        operar(valor_01, valor_02);
+    }
+
+    function operar(x, y){
+        var resultado = x + y;
+        document.getElementById('txtSalida').value = 'Valor de ' + x + ' + ' + y + ' es '+resultado;
+
+        alert("El valor es: " + resultado);
+    }
+
+    
+
+    document.getElementById('btnProcesar').setAttribute("onclick", "procesar()");
+</script>
+</html>

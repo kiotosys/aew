@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 2</title>
+</head>
+  <body>
+        <div style="text-align: center;margin:190px auto;">
+          <h1> :: Calculadora :: </h1>
+        <input type="text" id="num1"> 
+        <input type="text" id="num2"> 
+       <input type="button" value="Calcular" onclick="calc()">
+        <div id="result1"> </div>
+        <div id="result2"> </div>
+        <div id="result3"> </div>
+    </div>
+
+    <script>
+        function calc() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var mul = (num1*num2);
+            var suma = (num1+num2);
+            var resta = (num1-num2);
+            document.getElementById("result1").innerHTML = num1 + " multiplicado por " + num2 + " es: " + mul;
+            document.getElementById("result2").innerHTML = " suma es " + suma;
+            document.getElementById("result3").innerHTML = " resta es " + resta;
+        }
+    </script>
+  </body>
+</html>
